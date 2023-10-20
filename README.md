@@ -23,11 +23,9 @@ all of the important parameters are explained at the top of the script. Most of 
 Usage : 
 `preprocessing.py input_directory output_directory label_fomat`
 
-`label_format` : Optional (default 1)
-
-Set to `2` if you don't mind that images are all saved in individual directories instead of by host/replicate. 
-This can help if you have labels like "extra_leaf_2"
-
+label_format ; 
+* 1: Images are saved to folders by host/replicate
+* 2: Images are saved to individual folers. Usefull for debugging, especially with labels like `extra-leaf-2`
 
 ### 2. measure_lesions.py 
 
